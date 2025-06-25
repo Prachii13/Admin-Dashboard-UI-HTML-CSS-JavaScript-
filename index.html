@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h2>Admin</h2>
+      <nav>
+        <a href="#">Dashboard</a>
+        <a href="#">Users</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+      </nav>
+    </aside>
+    <main class="main-content">
+      <header>
+        <h1>Dashboard Overview</h1>
+        <button onclick="toggleSidebar()">☰</button>
+      </header>
+      <section class="cards">
+        <div class="card"><h3>Users</h3><p>1,200</p></div>
+        <div class="card"><h3>Sales</h3><p>$21,000</p></div>
+        <div class="card"><h3>Visitors</h3><p>8,400</p></div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
