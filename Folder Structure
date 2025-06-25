@@ -1,0 +1,5 @@
+admin-dashboard/
+├── index.html        # Dashboard layout
+├── style.css         # Styling with grid
+├── script.js         # Interactions
+└── README.md         # Docs
